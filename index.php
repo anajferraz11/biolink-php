@@ -1,6 +1,6 @@
 <?php
     $nome = "Ana Júlia";
-    $bio = "17 anos, Aluna SESI/SENAI";
+    $bio = "17 anos, Sou lutadora de Kickboxing, Aluna SESI/SENAI: Desenvolvimento de Sistemas";
     $imagem = "https://lh3.googleusercontent.com/a-/ALV-UjUX-odKxRgPqFZJGKaR12OYc6sPhDSTHe9Ww83RDUrZWoQwqZvV=s360-p-k-rw-no";       
     $destaque = "https://www.youtube.com/watch?v=oEauWw9ZGrA&list=PL-8M5stZkYjoLwnpdoBTSQMLIq6x5l83V";
 
