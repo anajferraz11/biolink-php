@@ -2,12 +2,17 @@
     $nome = "Ana Júlia";
     $bio = "17 anos, SESI/SENAI";
     $imagem = "https://lh3.googleusercontent.com/a-/ALV-UjUX-odKxRgPqFZJGKaR12OYc6sPhDSTHe9Ww83RDUrZWoQwqZvV=s360-p-k-rw-no";       
+    $destaque = "https://www.youtube.com/watch?v=oEauWw9ZGrA&list=PL-8M5stZkYjoLwnpdoBTSQMLIq6x5l83V";
 
        $links = [
-        "Instagram" => "https://instagram.com/ana_ferraz28",
+        "Instagram" => "https://www.instagram.com/",
         "WhatsApp"  => "https://web.whatsapp.com/",
+        "Tik Tok"  => "https://www.tiktok.com/login?redirect_url=https%3A%2F%2Fwww.tiktok.com%2Fpt-BR%2F&lang=en&enter_method=mandatory",
         "Música do Momento" => "https://www.youtube.com/watch?v=oEauWw9ZGrA&list=PL-8M5stZkYjoLwnpdoBTSQMLIq6x5l83V"
     ];
+
+
+    $link_vip = "Música do Momento";
 ?>
 
 <!DOCTYPE html>
@@ -16,7 +21,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DESAFIO TÉCNICO</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
@@ -31,17 +36,22 @@
             foreach ($links as $texto => $url) {
                 $classe_extra = "";
 
-                // DESAFIO: Se o texto for "WhatsApp" (ou outro que você queira), mude a variável $classe_extra para "destaque". Escreva o IF aqui:
+                if($url == "https://www.instagram.com/"){
+                    $classe_extra = "destaque";
+                }
 
-
-                // O PHP constrói o botão HTML
+                // Botão
                 echo "<a href='$url' class='btn $classe_extra' target='_blank'>
                         $texto
                       </a>";
             }
             ?>
 
+             
         </div>
+          <div class="area-contato">
+              <a href="contato.php" class="btn-msg">📧 Mandar Mensagem</a>
+           </div>
     </div>
 </body>
 </html>
