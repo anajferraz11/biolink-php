@@ -7,7 +7,7 @@
        $links = [
         "Instagram" => "https://www.instagram.com/",
         "WhatsApp"  => "https://web.whatsapp.com/",
-        "Tik Tok"  => "https://www.tiktok.com/login?redirect_url=https%3A%2F%2Fwww.tiktok.com%2Fpt-BR%2F&lang=en&enter_method=mandatory",
+        "TIK TOK"  => "https://www.tiktok.com/login?redirect_url=https%3A%2F%2Fwww.tiktok.com%2Fpt-BR%2F&lang=en&enter_method=mandatory",
         "Música do Momento" => "https://www.youtube.com/watch?v=oEauWw9ZGrA&list=PL-8M5stZkYjoLwnpdoBTSQMLIq6x5l83V"
     ];
 
