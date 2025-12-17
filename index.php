@@ -12,7 +12,7 @@
     ];
 
 
-    $link_vip = "Música do Momento";
+
 ?>
 
 <!DOCTYPE html>
